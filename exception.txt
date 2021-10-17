@@ -1,0 +1,3 @@
+System.Exception: 'Error reading path //TYRONE 4 NE BALD EAG/PRECIP-INC/01JUN1972/1HOUR/OBS/.  This may not be a path to a time series?'
+"//TYRONE 4 NE BALD EAG/PRECIP-INC/01JUN1972/1HOUR/OBS/"
+"C:\RasProjects\_Meteorology\Rainfall\BaldEagle Gridded and Point\Precipitation\Point\rainfall.dss"

@@ -1,0 +1,43 @@
+Version=1.0
+ProjectName=forKarl
+Extents=-1000.0,1000.0,1000.0,-1000.0
+Grow Extents=true
+Created=1555450114710
+Created By=q0hecmdb
+UnitSystemID=1
+SyncMapWindows=false
+DrawMapGridLines=true
+MapBackgroundColor=white
+
+CoordinateInfoBegin
+type=X-Y
+units=U.S. Feet
+unitMult=1.0
+spheroid=
+CoordinateInfoEnd
+
+AdditionalProjectInfoBegin
+AdditionalProjectInfoEnd
+
+ManagerBegin
+Name=Base Map
+Description=
+File=DataStore.LST
+Class=hec2.ssp.model.DataStore
+ModifiedTime=1555450114674
+CreatedBy=q0hecmdb
+CreatedOn=1555450114674
+ModifiedBy=q0hecmdb
+ManagerEnd
+
+ManagerBegin
+Name=Base Map
+Description=
+File=Base_Map.map
+Class=hec2.ssp.model.Map
+ModifiedTime=1555450114687
+CreatedBy=q0hecmdb
+CreatedOn=1555450114687
+ModifiedBy=q0hecmdb
+ManagerEnd
+

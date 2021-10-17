@@ -1,0 +1,76 @@
+Version=1.0
+ProjectName=forKarl
+Extents=-1000.0,1000.0,1000.0,-1000.0
+Grow Extents=true
+Created=1555450114710
+Created By=q0hecmdb
+UnitSystemID=1
+SyncMapWindows=false
+DrawMapGridLines=true
+MapBackgroundColor=white
+
+CoordinateInfoBegin
+type=X-Y
+units=U.S. Feet
+unitMult=1.0
+spheroid=
+CoordinateInfoEnd
+
+AdditionalProjectInfoBegin
+AdditionalProjectInfoEnd
+
+ManagerBegin
+Name=Base Map
+Description=
+File=DataStore.LST
+Class=hec2.ssp.model.DataStore
+ModifiedTime=1555450139388
+CreatedBy=q0hecmdb
+CreatedOn=1555450114674
+ModifiedBy=q0hecmdb
+ManagerEnd
+
+ManagerBegin
+Name=Base Map
+Description=
+File=Base_Map.map
+Class=hec2.ssp.model.Map
+ModifiedTime=1555450114687
+CreatedBy=q0hecmdb
+CreatedOn=1555450114687
+ModifiedBy=q0hecmdb
+ManagerEnd
+
+ManagerBegin
+Name=DataContainerNode
+Description=Working Set for DataContainerNode Node
+File=workingSets/DataContainerNode.ws
+Class=com.rma.model.WorkingSetManager
+ModifiedTime=1555450116964
+CreatedBy=q0hecmdb
+CreatedOn=1555450116925
+ModifiedBy=q0hecmdb
+ManagerEnd
+
+ManagerBegin
+Name=AMERICAN R-FAIR OAKS CA-FLOW-ANNUAL PEAK
+Description=Downloaded from USGS website. Station  11446500
+File=DataStore.LST
+Class=hec2.ssp.model.Data
+ModifiedTime=1555450139308
+CreatedBy=q0hecmdb
+CreatedOn=1555450139277
+ModifiedBy=q0hecmdb
+ManagerEnd
+
+ManagerBegin
+Name=AMERICAN R-FAIR OAKS CA-CODE-PEAK FLOW
+Description=Downloaded from USGS website. Station  11446500
+File=DataStore.LST
+Class=hec2.ssp.model.Data
+ModifiedTime=1555450139388
+CreatedBy=q0hecmdb
+CreatedOn=1555450139356
+ModifiedBy=q0hecmdb
+ManagerEnd
+

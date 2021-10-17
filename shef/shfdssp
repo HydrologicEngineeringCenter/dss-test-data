@@ -1,0 +1,26 @@
+HG STAGE                     FEET     INST-VAL
+PU PRECIP                    INCHES   INST-VAL
+HL ELEV                      FT-MSL   INST-VAL
+HP ELEV                      FT-MSL   INST-VAL
+HT STAGE                     FT-MSL   INST-VAL
+HW ELEV                      FT-MSL   INST-VAL
+PC PRECIP                    INCHES   INST-CUM
+PP PRECIP-INC                INCHES   INST-CUM
+PP RPRECIP-INC               INCHES   INST-VAL
+PR PRECIP-RATE               IN/DAY   INST-VAL
+QI FLOW-RES IN               CFS      INST-VAL 1000.
+QR FLOW                      CFS      INST-VAL 1000.
+QS FLOW-RES OUT              CFS      INST-VAL 1000.
+QT FLOW-RES OUT              CFS      INST-VAL 1000.
+TA TEMP-AIR                  DEG-F    INST-VAL
+TW TEMP-WATER                DEG-C    INST-VAL
+VB BATTVOLT                  VOLTS    INST-VAL
+WC COND                      UMHOS CM INST-VAL
+WL TSS                       MG L     INST-VAL
+WO D.O.                      MG L     INST-VAL
+WP PH                        SU       INST-VAL
+WT TURB                      NTU      INST-VAL
+YO ORP                       MV       INST-VAL
+YT UNK                       UNK      INST-VAL 1.4
+SD SNOW-DEPTH                INCHES   INST-CUM
+SW SNOW-WC                   INCHES   INST-CUM

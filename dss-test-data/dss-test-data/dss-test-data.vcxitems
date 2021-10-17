@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{9e820880-8bb3-4a3a-aebe-18409abe7f7f}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\..\BALDEAGLE.DSS" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\Bulletin_17C_Examples.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\ConnecticutGrids.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\containsGrids.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\containsGrids7.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\dotnet_example8.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\dot_net_AppendWithTimeGapRegularTimeSeries.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\dot_net_AppendWithTimeGapRegularTimeSeries6.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\DSSv6_NAB_Active_Precip_Gages.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\ensemble_V71.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\ensemble_V710.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\grid7.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\gridtest.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\June_2006.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\Kinzua.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\MathFunctions_1-2.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\MoRiverObs.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\MoRiverObs_TimeWindowTest.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\MoRiverObs_TimeWindowTest6.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\MoRiverObs_TimeWindowTest7.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\path_issue6.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\path_issue7.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\pdTest1.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\precip.2017.06.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\precip.2017.07.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\precip.2018.09.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\qpe.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\quality6.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\quality7.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\radar_utm.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\radar_utm7.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\rainfall.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\rainfall7.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\Russian_TimeSeries.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\sample.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\sample6.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\sample6_ras.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\sample7.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\sample7a.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\sample7_units_xyz.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\spd6.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\spd7.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\swegrid.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\Test7b.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\v6-pc.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\v7-pc.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\version6AlbersGridsTimeSeries.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\version6SpecifiedGrids.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\version7AlbersGrid.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\version7AlbersGridsTimeSeries.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\version7SpecifiedGrids.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\VerticalDatumTest_v6.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\VerticalDatumTest_v7.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\Windowsv6.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\Windowsv7.dss" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\zcopyFile6_7.dss" />
+  </ItemGroup>
+</Project>
