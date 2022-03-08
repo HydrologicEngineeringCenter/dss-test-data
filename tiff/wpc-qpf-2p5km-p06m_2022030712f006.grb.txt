@@ -1,0 +1,65 @@
+Driver: GRIB/GRIdded Binary (.grb, .grb2)
+Files: karl/wpc-qpf-2p5km/acquirables/p06m_2022030712f006.grb
+Size is 2145, 1597
+Coordinate System is:
+PROJCRS["unnamed",
+    BASEGEOGCRS["Coordinate System imported from GRIB file",
+        DATUM["unnamed",
+            ELLIPSOID["Sphere",6371200,0,
+                LENGTHUNIT["metre",1,
+                    ID["EPSG",9001]]]],
+        PRIMEM["Greenwich",0,
+            ANGLEUNIT["degree",0.0174532925199433,
+                ID["EPSG",9122]]]],
+    CONVERSION["Lambert Conic Conformal (2SP)",
+        METHOD["Lambert Conic Conformal (2SP)",
+            ID["EPSG",9802]],
+        PARAMETER["Latitude of false origin",25,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8821]],
+        PARAMETER["Longitude of false origin",-95,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8822]],
+        PARAMETER["Latitude of 1st standard parallel",25,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8823]],
+        PARAMETER["Latitude of 2nd standard parallel",25,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8824]],
+        PARAMETER["Easting at false origin",0,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8826]],
+        PARAMETER["Northing at false origin",0,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8827]]],
+    CS[Cartesian,2],
+        AXIS["(E)",east,
+            ORDER[1],
+            LENGTHUNIT["Metre",1]],
+        AXIS["(N)",north,
+            ORDER[2],
+            LENGTHUNIT["Metre",1]]]
+Data axis to CRS axis mapping: 1,2
+Origin = (-2764474.350731992628425,3790844.774292394984514)
+Pixel Size = (2539.702999999999975,-2539.702000000000226)
+Corner Coordinates:
+Upper Left  (-2764474.351, 3790844.774) (132d 0'57.11"W, 54d12'45.58"N)
+Lower Left  (-2764474.351, -265059.320) (121d33'48.72"W, 20d10'43.04"N)
+Upper Right ( 2683188.584, 3790844.774) ( 59d 1'17.21"W, 54d22'46.87"N)
+Lower Right ( 2683188.584, -265059.320) ( 69d11'54.73"W, 20d19' 6.40"N)
+Center      (  -40642.883, 1762892.727) ( 95d27'46.89"W, 40d38'51.51"N)
+Band 1 Block=2145x1 Type=Float64, ColorInterp=Undefined
+  Description = 0--1[-] SFC="Ground or water surface"
+  Metadata:
+    GRIB_COMMENT=06 hr Total precipitation [kg/(m^2)]
+    GRIB_DISCIPLINE=0(Meteorological)
+    GRIB_ELEMENT=APCP06
+    GRIB_FORECAST_SECONDS=0
+    GRIB_IDS=CENTER=7(US-NCEP) SUBCENTER=5(Hydrometeorological Prediction Center) MASTER_TABLE=2 LOCAL_TABLE=1 SIGNF_REF_TIME=1(Start_of_Forecast) REF_TIME=2022-03-07T12:00:00Z PROD_STATUS=0(Operational) TYPE=1(Forecast)
+    GRIB_PDS_PDTN=8
+    GRIB_PDS_TEMPLATE_ASSEMBLED_VALUES=1 8 2 0 180 255 255 1 0 1 0 0 1 0 -1 2022 3 7 18 0 0 1 0 1 255 1 6 1 0
+    GRIB_PDS_TEMPLATE_NUMBERS=1 8 2 0 180 0 255 255 1 0 0 0 0 1 0 0 0 0 0 1 0 128 0 0 1 7 230 3 7 18 0 0 1 0 0 0 0 1 255 1 0 0 0 6 1 0 0 0 0
+    GRIB_REF_TIME=1646654400
+    GRIB_SHORT_NAME=0--1-SFC
+    GRIB_UNIT=[kg/(m^2)]
+    GRIB_VALID_TIME=1646676000
